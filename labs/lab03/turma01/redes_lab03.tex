@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{geometry}
+% Custom command for incorrect options
+\newcommand{\incorrectOption}{\item[\textbf{\Circle}]}
+% Custom command for correct option
+\newcommand{\correctOption}{\item[\textbf{\CIRCLE}]}
+
+\definecolor{darkgreen}{rgb}{0,0.8,0.3}
+\definecolor{darkblue}{rgb}{0.00,0.00,0.55}
+
+
+\begin{document}
+
+\begin{center}
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in}\\
+
+Universidade do Algarve\hfill WireShark - Capturing Packets \hfill 2024\\[3ex]
+
+{\Large\bf Lab \#3} \\[3ex]
+
+ \textcolor{blue}{YourName} \hfill  
+ \textcolor{blue}{PL1} \hfill
+ \textcolor{blue}{YourStudentNumber}\\
+
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in} \\
+\end{center}
+
+
+
+\begin{center}
+\rule{\textwidth}{0.4pt}
+\textbf{Completely fill the circles as shown: \Circle \Circle \CIRCLE \Circle}
+\rule{\textwidth}{0.4pt}
+\end{center}
+
+
+\begin{enumerate}[leftmargin=*, label=\textbf{Q\arabic*}, itemsep=-5pt]
+\item A team member is looking to capture traffic on the server. The
+  team member says the traffic is visible, but the capture file cannot
+  be saved. Which is a likely solution? 
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+  \incorrectOption Start capturing.
+  \incorrectOption Select the correct network. 
+  \incorrectOption Stop capturing.
+  \incorrectOption Close the capture file.
+  \end{enumerate}  
+ 
+\item A colleague is working on observing only HTTPS packets from an
+  existing file. Which filter should be used?  
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+  \incorrectOption Display filter with {http}. 
+  \incorrectOption Display filter with {tcp.port==443}.
+  \incorrectOption Capture filter with {tcp.port==443}.
+  \incorrectOption Capture filter with {http}.
+  \end{enumerate}
+ 
+\item An analyst has been alerted of strange network activity coming
+  from IP address 18.160.96.85 and has been tasked with locating all
+  the packets containing the IP address in Wireshark capture. Which
+  filter should be used?  
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+  \incorrectOption ip.addr=18.160.96.85
+  \incorrectOption ip.src==18.160.96.85
+  \incorrectOption ip.dst==18.160.96.85
+  \incorrectOption ip.addr==18.160.96.85
+\end{enumerate}
+
+\item A server has a lot of traffic on a particular IP address. To
+  observe other packets, the analyst just wants to see those packets
+  not associated with IP address 18.160.96.85. Which filter should be used? 
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+  \incorrectOption !(ip.addr=18.160.96.85) or tcp.port==443
+  \incorrectOption (ip.addr!=18.160.96.85) or tcp.port==443
+  \incorrectOption !(ip.addr=18.160.96.85) and tcp.port==443
+  \incorrectOption (ip.addr!=18.160.96.85) and tcp.port==80
+  \end{enumerate}
+\end{enumerate}
+\end{document}
