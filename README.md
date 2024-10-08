@@ -48,7 +48,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 2. Overview of packets
 
-3. Overview of network protocoals security
+3. Overview of network protocols security
 
 	1. CIA (Confidentiality, Integrity, Availability)
 
@@ -110,7 +110,24 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 4 - ARP and DHCP
+# Week 4 - Introduction to Security
+
+1. Basics on security
+
+2. Safety and security in the IP layer
+
+3. NAT and IP addresses
+
+4. Man-in-the-middle (MITM) attacks.
+
+
+## Readings
+
+1. K&R (Chapters 8.1)
+
+
+
+# Week 5 - ARP and DHCP
 
 1. Introduction to ARP and DHCP
 
@@ -128,7 +145,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 1. K&R (Chapters 4.3.3, 6.4.1, 6.7.1-6.7.2)
 
 
-# Week 5 - UDP
+# Week 6 - UDP
 
 
 1. UDP segment
@@ -148,7 +165,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 6 - DNS
+# Week 7 - DNS
 
 
 1. DNS introduction
@@ -173,7 +190,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 7 - TCP
+# Week 8 - TCP
 
 
 1. Transport Control Protocol (TCP)
@@ -196,7 +213,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 1. K&R (Chapters 3.4-3.4.1, 3.5)
 
 
-# Week 8 - networking outlook
+# Week 9 - networking outlook
 
 
 1. Application layer protocols
@@ -221,7 +238,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 9 - wireless and mobile networks 
+# Week 10 - wireless and mobile networks 
 
 1. Introduction
 
@@ -245,7 +262,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 10 - security
+# Week 11 - security
 
 1. Security in Computer Networks
 
@@ -269,7 +286,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 11 - TLS
+# Week 12 - TLS
 
 1. TLS introduction
 
@@ -290,23 +307,6 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 1. K&R (Chapters 3.4-3.4.1,3.5,8.6)
 
 2. G&T (Chapters 7.1.2,8.3)
-
-
-
-# Week 12 - tunnelling: VPN/SSH
-
-1. VPN overview
-
-2. VPN use cases 
-
-3. VPN security concerns
-
-4. SSH and TOFU
-
-## Readings
-
-1. K&R (Chapters 8.7-8.7.1) 
-
 
 # Week 13 - network defense
 
