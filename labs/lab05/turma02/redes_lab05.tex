@@ -1,0 +1,101 @@
+\documentclass{article} % set_input_method
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{geometry}
+% Custom command for incorrect options
+\newcommand{\incorrectOption}{\textbf{\Circle}}
+% Custom command for correct option
+\newcommand{\correctOption}{\textbf{\CIRCLE}}
+
+\definecolor{darkgreen}{rgb}{0,0.8,0.3}
+\definecolor{darkblue}{rgb}{0.00,0.00,0.55}
+
+\begin{document}
+
+\begin{center}
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in}\\
+
+Universidade do Algarve\hfill Basics on Security \hfill 2024\\[3ex]
+
+{\Large\bf Lab \#5} \\[3ex]
+
+ \textcolor{blue}{Nome} \hfill  
+ \textcolor{blue}{PL2} \hfill
+ \textcolor{blue}{Número de Aluno}\\
+
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in} \\
+\end{center}
+
+
+\begin{center}
+\rule{\textwidth}{0.4pt}
+\textbf{Completely fill the circles as shown: \Circle \Circle \CIRCLE \Circle}
+\rule{\textwidth}{0.4pt}
+\end{center}
+
+
+\begin{enumerate}[leftmargin=*, label=\textbf{Q\arabic*}, itemsep=-5pt]
+\item You listen to a presentation about a new network protocol for
+  online banking. After the talk, there is a lot of discussion going
+  on. Check all the remarks that are relevant under the \textbf{Dolev-Yao} model.  
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+   \item[\incorrectOption] The bank runs Windows on their servers. This will
+    be insecure.
+   \item[\incorrectOption] It looks nice, the NSA (National Security Agency)
+    will break the encryption function and use this to spy on us.
+    \item[\incorrectOption] What happens if someone breaks into the bank's
+    data center? They should use a blockchain instead!
+    \item[\incorrectOption] I don't think they properly protect against
+    transaction replay.
+   \end{enumerate}   
+  %
+\item For each network capability, which goal is {\bf{}directly}
+  violated? {\bf{}Only check one goal} - the most directly violated
+  one per capability.
+
+  \begin{tabular}{|c|c|c|c|} \hline
+     \textbf{Attacker Capability} & \textbf{Confidentiality} & \textbf{Integrity} & \textbf{Availability}\\ \hline
+     Observe packets & \incorrectOption & \incorrectOption & \incorrectOption\\ \hline
+     Modify packets & \incorrectOption & \incorrectOption & \incorrectOption\\ \hline
+     Drop packets & \incorrectOption & \incorrectOption & \incorrectOption\\ \hline
+     Delay packets & \incorrectOption & \incorrectOption & \incorrectOption\\ \hline
+     Forge packets & \incorrectOption & \incorrectOption & \incorrectOption\\ \hline
+     Replay packets & \incorrectOption & \incorrectOption & \incorrectOption\\\hline
+  \end{tabular}  \\
+\item For their new blockchain-based  cryptocurrency venture,
+  FooBank's CTO wants to get rind of all that unwanted software code
+  and build revolutionary high-speed banking protocol directly on top
+  of IP pakets. They propose the following protocol for money
+  transfers between two different bank branches: \\
+  ``\textcolor{blue}{ I first send you a packet with information of the receiver,
+  then a packet with information of the amount, and then a
+  packet with information of the recipient. Trust me, it's the
+  best protocol we ever had!}''.
+
+What could possibly go wrong? 
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+  \item[\incorrectOption]  Some transfers may inexplicably fail.
+  \item[\incorrectOption]  Instead of sending money from Alice to Bob, FooBank may end
+      up sending money from Bob to Alice.
+    \item[\incorrectOption]  Mischievous attackers may get rich.
+    \item[\incorrectOption]  Someone in Russia may get wind of it.
+    \end{enumerate}
+%
+  \item Check all statements that are true about BGPs.\\
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+  \item[\incorrectOption]  The confidentiality of our communications
+    can be asserted by physically protecting all fiber cables (in the
+    world) on the default path.  
+  \item[\incorrectOption] Securing BGP communications \textbf{today}
+    is mostly an \textbf{afterthought} due to the fact that threat
+    models have changed from the old Arpanet to the modern Internet.
+  \item[\incorrectOption]  When leaving a spouse (home), one should
+    reconfigure their BGP routes to protect her against stalking.
+  \end{enumerate}
+  \end{enumerate}
+\end{document}
