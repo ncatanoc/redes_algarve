@@ -331,7 +331,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 1. Revision
 
-2. Typ exam resolution
+2. Typical exam resolution
 
 
 # Bibliography
