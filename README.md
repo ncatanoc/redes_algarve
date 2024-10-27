@@ -145,7 +145,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 1. K&R (Chapters 4.3.3, 6.4.1, 6.7.1-6.7.2)
 
 
-# Week 6 - UDP
+# Week 6 & 7 - UDP
 
 
 1. UDP segment
@@ -162,32 +162,6 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 ## Readings
 
 1. K&R (Chapters 4.3.3, 6.4.1, 6.7.1-6.7.2)
-
-
-
-# Week 7 - DNS
-
-
-1. DNS introduction
-
-2. DNS record types
-
-3. Recursive name resolutions
-
-4. Traffic filtering
-
-5. Security considerations
-
-	1. DNS poisoning
-
-	2. DNS sinkholing
-
-	3. DNS amplification attacks
-
-## Readings
-
-1. K&R (Chapters 2.4, 6.7.3-6.7.4)
-
 
 
 # Week 8 - TCP
@@ -213,7 +187,33 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 1. K&R (Chapters 3.4-3.4.1, 3.5)
 
 
-# Week 9 - networking outlook
+
+# Week 9 - DNS
+
+
+1. DNS introduction
+
+2. DNS record types
+
+3. Recursive name resolutions
+
+4. Traffic filtering
+
+5. Security considerations
+
+	1. DNS poisoning
+
+	2. DNS sinkholing
+
+	3. DNS amplification attacks
+
+## Readings
+
+1. K&R (Chapters 2.4, 6.7.3-6.7.4)
+
+
+
+# Week 10 - networking outlook
 
 
 1. Application layer protocols
@@ -238,7 +238,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 10 - wireless and mobile networks 
+# Week 11 - wireless and mobile networks 
 
 1. Introduction
 
@@ -262,7 +262,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 11 - security
+# Week 12 & 13 - security and TLS
 
 1. Security in Computer Networks
 
@@ -286,7 +286,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 12 - TLS
+# Week 14 - TLS
 
 1. TLS introduction
 
@@ -307,31 +307,6 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 1. K&R (Chapters 3.4-3.4.1,3.5,8.6)
 
 2. G&T (Chapters 7.1.2,8.3)
-
-# Week 13 - network defense
-
-1. network defense overview
-
-2. firewalls
-
-3. intrusion-detection systems
-
-4. networking testing
-
-5. zero-trust architecture
-
-## Readings
-
-1. K&R (Chapters 8.9)
-
-2. G&T (Chapters 5-5.4, 6.2, 6.3, intro, 6.3.3, 6.4) 
-
-
-# Week 14 - Summary
-
-1. Revision
-
-2. Typical exam resolution
 
 
 # Bibliography
