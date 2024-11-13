@@ -133,7 +133,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 2. MAC addressing and ARP
 
-3. DHCE
+3. DHCP
 
 4. ARP security
 
@@ -238,7 +238,31 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 11 - wireless and mobile networks 
+# Week 11 - TLS
+
+1. TLS introduction
+
+2. Internet PKI
+
+3. Trust model issues
+
+	1. CA
+
+	2. Certification issuance and maintenance
+
+	3. Certificate revocation
+
+	4. Users
+
+## Readings
+
+1. K&R (Chapters 3.4-3.4.1,3.5,8.6)
+
+2. G&T (Chapters 7.1.2,8.3)
+
+
+
+# Week 12 - wireless and mobile networks 
 
 1. Introduction
 
@@ -262,7 +286,7 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 12 & 13 - security and TLS
+# Week 13 & 14 - security and TLS
 
 1. Security in Computer Networks
 
@@ -286,27 +310,6 @@ do prazo, obter a sua validação e obter uma nota mínima >= **8** (sobre
 
 
 
-# Week 14 - TLS
-
-1. TLS introduction
-
-2. Internet PKI
-
-3. Trust model issues
-
-	1. CA
-
-	2. Certification issuance and maintenance
-
-	3. Certificate revocation
-
-	4. Users
-
-## Readings
-
-1. K&R (Chapters 3.4-3.4.1,3.5,8.6)
-
-2. G&T (Chapters 7.1.2,8.3)
 
 
 # Bibliography
