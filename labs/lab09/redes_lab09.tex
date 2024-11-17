@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{geometry}
+% Custom command for incorrect options
+\newcommand{\incorrectOption}{\item[\textbf{\Circle}]}
+% Custom command for correct option
+\newcommand{\correctOption}{\item[\textbf{\CIRCLE}]}
+
+\definecolor{darkgreen}{rgb}{0,0.8,0.3}
+\definecolor{darkblue}{rgb}{0.00,0.00,0.55}
+
+
+\begin{document}
+
+\begin{center}
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in}\\
+
+Universidade do Algarve\hfill \textbf{UDP} \hfill 2024\\[3ex]
+
+{\Large\bf Lab \#9} \\[3ex]
+
+\begin{tabular}{l}
+\textcolor{blue}{Email} \\ \hfill 
+\end{tabular}
+\begin{tabular}{l}
+\textcolor{blue}{Due: Nov-22-2024} \\ \hfill 
+\end{tabular}\\
+
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in} \\
+\end{center}
+
+
+\begin{center}
+\rule{\textwidth}{0.4pt}
+\textbf{Completely fill the circles as shown: \Circle \Circle \CIRCLE \Circle}
+\rule{\textwidth}{0.4pt}
+\end{center}
+
+
+\begin{enumerate}[leftmargin=*, label=\textbf{Q\arabic*}, itemsep=-5pt]
+\item What is UDP good for? 
+  (\textbf{single or multiple choice})
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+    \incorrectOption audio chat. 
+    \incorrectOption sending emails. 
+    \incorrectOption video chat. 
+    \incorrectOption downloading web pages. 
+    \incorrectOption real time systems. 
+    \incorrectOption watching movies online. 
+   \end{enumerate}   
+\item What do we need a port for? 
+  (\textbf{single or multiple choice})
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+    \incorrectOption to uniquely identify a socket.
+    \incorrectOption to uniquely identify a device.
+    \incorrectOption to uniquely identify a program. 
+    \incorrectOption to dock your ships.
+   \end{enumerate}   
+\item Who is the intended target of a reflection attack?
+  (\textbf{single or multiple choice})
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+    \incorrectOption the device the attacker is sending the request to.
+    \incorrectOption the device that is mentioned in the source IP field.
+    \incorrectOption the device the attacker is using to send packets.
+   \end{enumerate}   
+\item What attributes of UDP contributes to it being used for
+  amplification attacks?  
+  (\textbf{single or multiple choice})
+  \begin{enumerate}[itemsep=-3.5pt, label={}]
+    \incorrectOption Connectionless.
+    \incorrectOption Spoofable.
+    \incorrectOption Guaranteed delivery.
+   \end{enumerate}   
+  %
+\end{enumerate}
+\end{document}
