@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{geometry}
+% Custom command for incorrect options
+\newcommand{\incorrectOption}{\item[\textbf{\Circle}]}
+% Custom command for correct option
+\newcommand{\correctOption}{\item[\textbf{\CIRCLE}]}
+
+\definecolor{darkgreen}{rgb}{0,0.8,0.3}
+\definecolor{darkblue}{rgb}{0.00,0.00,0.55}
+
+
+\begin{document}
+
+\begin{center}
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in}\\
+
+Universidade do Algarve\hfill \textbf{Ataques de Injeção de Comandos} \hfill 2024\\[3ex]
+
+{\Large\bf Lab \#10} \\[3ex]
+
+\begin{tabular}{l}
+\textcolor{blue}{PL1} \\ \hfill 
+\end{tabular}
+\begin{tabular}{l}
+\textcolor{blue}{Email} \\ \hfill 
+\end{tabular}
+\begin{tabular}{l}
+\textcolor{blue}{Due: Nov-29-2024 at 1PM} \\ \hfill 
+\end{tabular}\\
+
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in} \\
+\end{center}
+
+\section*{Proteção contra ataques de injeção de comandos}
+
+Mencionamos de seguida 5 técnicas de proteção contra ataques de
+\textbf{injeção de comandos}. Escolha uma destas técnicas seguindo o
+último dígito do seu número de aluno módulo 4, por exemplo, se o
+último dígito for 7, deve selecionar a 3ª técnica; ($i.$) explique do
+que se trata a técnica, $(ii.)$ explique como a técnica ajuda a
+prevenir ataques de injecção de comandos, $(iii.)$ explique como a
+técnica é implementada.
+
+\bigskip
+
+{\large
+  \noindent
+\textbf{Pode pesquisar na Internet ou noutras fontes de informação, mas não
+tem permissão para copiar e colar texto; escreva a sua resposta usando
+as palavras suas}.
+}
+
+\bigskip
+
+\begin{enumerate}
+\item[0.] avoid calling commands, use API functions instead; programs
+  should use library APIs that safely implement commands like
+  \texttt{remove}, \texttt{mkdir}, \texttt{remove}, etc.
+\item when building a command string, you must escape program
+  arguments with \verb|\|.
+\item validate both commands and arguments; if possible, use
+  structured APIs that separate \texttt{data} from \texttt{commands}.
+\item use sandboxing (check the internet for what sandboxing is); limite command
+  privileges, users privileges, and commands scope.
+\end{enumerate}
+
+\bigskip 
+\bigskip
+
+\textbf{Your answer goes here}.
+
+
+\end{document}
