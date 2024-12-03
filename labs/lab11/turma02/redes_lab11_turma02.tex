@@ -1,0 +1,129 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{geometry}
+% Custom command for incorrect options
+\newcommand{\incorrectOption}{\item[\textbf{\Circle}]}
+% Custom command for correct option
+\newcommand{\correctOption}{\item[\textbf{\CIRCLE}]}
+
+\definecolor{darkgreen}{rgb}{0,0.8,0.3}
+\definecolor{darkblue}{rgb}{0.00,0.00,0.55}
+
+
+\begin{document}
+
+\begin{center}
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in}\\
+
+Universidade do Algarve\hfill \textbf{Cross-Site Scripting} \hfill 2024\\[3ex]
+
+{\Large\bf Lab \#11} \\[3ex]
+
+\begin{tabular}{l}
+\textcolor{blue}{Email} \\ \hfill 
+\end{tabular}
+\begin{tabular}{l}
+\textcolor{blue}{Data de entrega: Dic-03-2024 pelas 16h30} \\ \hfill 
+\end{tabular}\\
+
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in} \\
+\end{center}
+
+\section*{Injection Attacks}
+You should answer two of the next questions depending on the last 2 digits of your student
+number.
+
+\bigskip
+
+\noindent
+\textbf{First question.} Answer the question that matches the last
+digit of your student number, e.g., if your student number is
+\texttt{a65873} you should answer question 3.
+
+\bigskip
+
+\noindent
+\textbf{Second question.} Answer the question that matches the
+second-last (``penúltimo'') digit of your student number, e.g. if your
+student number is \texttt{a65873} you should answer question
+7. However, if the last two digits of your student number are the
+same, e.g. as in \texttt{a71566}, then you should take the sum of the last
+two digits module 10, e.g., 2 = (6+6) module 10.
+
+\bigskip
+
+{\large
+  \noindent \textbf{These questions were discussed in class. The questions
+    refer to \texttt{slides$\_$13} in Tutoria. Turn in your answers
+    through Tutoria}.  }
+
+\bigskip
+\bigskip
+
+\begin{enumerate}
+  %
+\item[0.] Slide 13. Explain the message at the botton of the slide: ``Same-origin policy: it
+  prevents script access from \texttt{hacker.net} to the \texttt{victim.org}’s
+  DOM''. What does this message mean? 
+  \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slide 20, 21. What is the line ``alert(JSON.stringify(confidential\_keys[0]))''
+  doing? \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slides 1 to 22. What are the final 3 conclusions regarding the
+  Web Security that were given at the end of the class?
+  \textbf{Explain them}. 
+  %
+\item Slide 6. Why do we mention here the ``least common mechanism''? \textbf{Amplify on what it
+  was discussed in class}.
+  %
+\item Slide 8. Why do we mention here the term ``complete mediation''? \textbf{Amplify on what it
+  was discussed in class}. 
+  %
+\item Slide 19. In which of these categories ``cookie theft'' can be placed? \textbf{Amplify on
+  what it was discussed in class}. 
+%   %
+\item Slide 16. What is meant by ``the script  tag is not subject to the Same-Origin
+  Policy''? What are the consequences of that? 
+  \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slide 11. Explain the 3 different cases shown in the Slide. Why do these sites
+  have different origins?  \textbf{Amplify on what it was discussed in class}. 
+  %
+\item Slide 4. What does this graphic suggest? \textbf{Amplify on what it
+  was discussed in class}. 
+  %
+\item Slide 5. What does this graphic suggest? \textbf{Amplify on what it
+  was discussed in class}.
+\end{enumerate}
+
+
+\bigskip
+
+\section*{Critérios de Avaliação}
+
+\begin{tabular}{|c|p{2cm}|} \hline
+  \textbf{Value} & \textbf{Description} \\ \hline
+  5 & Excellent \\ \hline
+  4 & Good  \\ \hline 
+  3 & Average  \\ \hline 
+  2 & Bad \\ \hline 
+  1 & really? \\ \hline 
+\end{tabular}
+
+\bigskip 
+
+\bigskip 
+
+\bigskip
+
+\textbf{Your answers go here}.
+
+
+\end{document}
