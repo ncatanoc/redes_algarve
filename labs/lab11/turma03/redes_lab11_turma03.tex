@@ -1,0 +1,167 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{geometry}
+% Custom command for incorrect options
+\newcommand{\incorrectOption}{\item[\textbf{\Circle}]}
+% Custom command for correct option
+\newcommand{\correctOption}{\item[\textbf{\CIRCLE}]}
+
+\definecolor{darkgreen}{rgb}{0,0.8,0.3}
+\definecolor{darkblue}{rgb}{0.00,0.00,0.55}
+
+
+\begin{document}
+
+\begin{center}
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in}\\
+
+Universidade do Algarve\hfill \textbf{Cross-Site Scripting (XSS)} \hfill 2024\\[3ex]
+
+{\Large\bf Lab \#11} \\[3ex]
+
+\begin{tabular}{l}
+\textcolor{blue}{PL3} \\ \hfill 
+\end{tabular}
+\begin{tabular}{l}
+\textcolor{blue}{Email:} \\ \hfill 
+\end{tabular}
+\begin{tabular}{l}
+\textcolor{blue}{Data de entrega: Dezembro-06-2024 pelas 16h30} \\ \hfill 
+\end{tabular}\\
+
+\rule{\textwidth}{.0075in} \\
+\rule[3mm]{\textwidth}{.0075in} \\
+\end{center}
+
+\section*{Cross-Site Scripting Attacks}
+You should answer two of the next questions depending on the last digit of your student
+number. Hence, if your student number is \texttt{a65873} you should answer
+questions 3 and 13. Your should turn-in your answers in Tutoria.
+
+\bigskip 
+\bigskip
+
+{\large
+  \noindent \textbf{Questions refer to \texttt{slides$\_$13} in Tutoria}. 
+}
+\bigskip
+\bigskip
+
+\begin{enumerate}
+  %
+\item[0.] Slide 19. Why does it meant ``\textbf{to leak data
+    cross-origin}''? \textbf{Explain}. 
+
+\item  Slide 37. Which \textbf{value} would in this case be? Why
+  would the browser assume that it is talking to Alice?
+  \textbf{Amplify on what it was discussed in class}.
+%
+\item Slide 13. Explain the message at the botton of the slide: ``Same-origin policy: it
+  prevents script access from \texttt{hacker.net} to the \texttt{victim.org}’s
+  DOM''. What does this message mean? 
+  \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slides 1 to 22. What are the final 3 conclusions regarding the
+  Web Security that were given at the end of the class?
+  \textbf{Explain them}. 
+  %
+\item Slide 6. According to this
+  web-site~\href{https://owasp.org/www-project-developer-guide/draft/foundations/security_principles}{Link},
+  ``the least common security principle disallows the sharing of
+  mechanisms that are common to more than one user or process if the
+  users or processes are at different levels of privilege''. How does
+  the least common security principle relate to the same-policy origin
+  principle? \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slide 8. Why do we mention here the term ``complete mediation''? \textbf{Amplify on what it
+  was discussed in class}. 
+  %
+\item Slide 19. In which of these categories ``cookie theft'' can be placed? \textbf{Amplify on
+  what it was discussed in class}. 
+%   %
+\item Slide 16. What is meant by ``the script  tag is not subject to the Same-Origin
+  Policy''? What are the consequences of that? 
+  \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slide 11. Explain the 3 different cases shown in the Slide. Why do these sites
+  have different origins?  \textbf{Amplify on what it was discussed in class}. 
+  %
+\item Slide 4. How pervasive are web attacks? \textbf{Amplify on what it
+  was discussed in class}. 
+  %
+\item Slide 5. How pervasive are XSS attacks? \textbf{Amplify on what it
+  was discussed in class}.  
+% 
+\item Slide 6. According to this
+  web-site~\href{https://owasp.org/www-project-developer-guide/draft/foundations/security_principles}{Link},
+  ``the least common security principle disallows the sharing of
+  mechanisms that are common to more than one user or process if the
+  users or processes are at different levels of privilege''. How does
+  the \textbf{least common} security principle relate to the same-policy origin
+  principle? \textbf{Amplify on what it was discussed in class}.
+%
+\item Slide 6. According to this
+  web-site~\href{https://owasp.org/www-project-developer-guide/draft/foundations/security_principles}{Link},
+  ``the least common security principle disallows the sharing of
+  mechanisms that are common to more than one user or process if the
+  users or processes are at different levels of privilege''. How does
+  the \textbf{least common} security principle relate to the separation model
+  of Google Chrome? \textbf{Amplify on what it was discussed in class}.
+%
+\item Slide 8. According to this
+  web-site~\href{https://owasp.org/www-project-developer-guide/draft/foundations/security_principles}{Link},
+  the \textbf{complete mediation} security principle ensures that
+  authority is not circumvented in subsequent requests of an object by
+  a subject, by checking for authorization (rights and privileges)
+  upon every request for the object. Why is \textbf{complete
+    mediation} mentioned in Slide 8? \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slide 20. Explain the security breach that occurs 
+  here.  \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slide 21. Explain the sanitisation process that must occur here.
+  \textbf{Amplify on what it was discussed in class}.
+  %
+\item Slide 37. If an attacker steals Alice's cookie, how would this
+  attacker impersonate Alice?  \textbf{Amplify on what it was
+    discussed in class}.
+  %
+\item Slide 41. The slide shows 4 items in red colour. Explain how
+  these 4 items impact negatively the security of web applications.
+  %
+\item Slide 42. Explain the security issue that second paragraph
+  suggests.  
+  %
+\item Slide 7. What is the trade-off between \textbf{flexibility}
+  and \textbf{security}? \textbf{Explain}.
+\end{enumerate}  
+
+
+\bigskip
+
+\section*{Critérios de Avaliação}
+
+\begin{tabular}{|c|p{2cm}|} \hline
+  \textbf{Value} & \textbf{Description} \\ \hline
+  5 & Excellent \\ \hline
+  4 & Good  \\ \hline 
+  3 & Average  \\ \hline 
+  2 & Bad \\ \hline 
+  1 & really? \\ \hline 
+\end{tabular}
+
+\bigskip 
+
+\bigskip 
+
+\bigskip
+
+\textbf{Your answers go here}.
+
+
+\end{document}
